@@ -1,0 +1,39 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Kaushan Script', cursive;
+}
+
+th {
+  font-weight: bold;
+}
+
+.width-75 {
+  width: 75%;
+}
+
+.center {
+  text-align: center;
+}
+
+.padding {
+  padding: 10px;
+}
+
+.blue {
+  background-color: #66c2ff;
+}
+
+.yellow {
+  background-color: #FFD700;
+}
+
+.border-round {
+  border-radius: 10px;
+}

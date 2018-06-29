@@ -2,23 +2,32 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>A Cappella Championships</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="./src/index.js"></script>
+    <script src="./src/aCappellaGroup.js"></script>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Open+Sans" rel="stylesheet">
   </head>
   <body>
-    <div>
-      <h1>Collegiate A Capella Awards</h1>
-      <table>
-        <tbody id="table-body">
-          <tr>
-            <th>College</th>
-            <th>Group Name</th>
-            <th>Membership</th>
-            <th>Division</th>
-            <th>Winner</th>
+    <div class='main'>
+      <h1 class='padding'>Collegiate A Cappella Awards</h1>
+      <h2 class="padding yellow">
+        Winner:
+      </h2>
+      <table class='width-75' border="1">
+        <thead class='blue'>
+          <tr class='padding'>
+            <th class='padding center'>College</th>
+            <th class='padding center'>Group Name</th>
+            <th class='padding center'>Membership</th>
+            <th class='padding center'>Division</th>
+            <th class='padding center'>Crown as Winner</th>
           </tr>
+        </thead>
+        <tbody id="table-body">
         </tbody>
       </table>
     </div>
-    <script src="index.js"></script>
   </body>
 </html>
