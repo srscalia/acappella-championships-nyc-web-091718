@@ -1,6 +1,6 @@
 Congrats! You are a building a website for the the Collegiate A Cappella Network. Below are the app deliverables.
 
-- Your list of a cappella groups must be fetched from `http://starkiller-api.herokuapp.com/a_cappella_groups`
+- Your list of a cappella groups must be fetched from `http://starkiller-api.herokuapp.com/api/v1/a_cappella_groups`
 - Get the list of groups to display on the page and fill the table with relevant information.
 - Make sure you console.log and check your data structures frequently.
 - The tableRow function has been provided to you as a template for what needs to be added to the page.
